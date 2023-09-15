@@ -1,0 +1,53 @@
+$basic-font-color: #26282b;
+
+$form-border-color: #d4d8d9;
+$form-placeholder-color: #999999;
+
+$font-lightgray-color: #9ea4aa;
+$font-grey-color: #454c53;
+$font-darkgrey-color: #26282b;
+
+$font-block-color: #000000;
+
+$font-rightblue-color: #2baff4;
+$font-blue-color: #1d7ff9;
+$font-darkblue-color: #0046b9;
+
+$xsmall-font-size: 12px;
+$small-font-size: 13px;
+$normal-font-size: 14px;
+$large-font-size: 16px;
+$extralarge-font-size: 18px;
+$extralarge-font-size02: 20px;
+$extralarge-font-size03: 22px;
+$extralarge-font-size04: 24px;
+
+$mobile-large-font-size: 21px;
+
+$small-button-font-size: 12px;
+$normal-button-font-size: 16px;
+$large-button-font-size: 18px;
+
+$border-lightgrey-color: #c9cdd2;
+$border-grey-color: #999999;
+$border-darkgrey-color: #6b6b6b;
+
+$border-blue-color: #1d7ffa;
+
+$bg-blue-color: #1d7ffa;
+
+@mixin layoutPosition($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  left: $left;
+  right: $right;
+  bottom: $bottom;
+}
+
+%clear {
+  &:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}

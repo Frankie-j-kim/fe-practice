@@ -1,0 +1,54 @@
+.information {
+  background-color: #f7f8f9;
+
+  .view_default {
+    overflow: hidden;
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 70px;
+  }
+  .ho_004 {
+    padding: 100px 0;
+
+    .trophy {
+      margin-top: 40px;
+
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 20%;
+
+          p {
+            margin-top: 8px;
+            line-height: 1.5;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 400;
+            color: #454c53;
+          }
+        }
+      }
+
+      strong {
+        margin-top: 8px;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  }
+  .headline {
+    display: block;
+    font-size: 34px;
+    font-weight: 600;
+    color: #26282b;
+  }
+  .descript {
+    margin-top: 10px;
+  }
+}
